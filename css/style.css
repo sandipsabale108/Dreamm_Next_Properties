@@ -1039,11 +1039,13 @@ h1 {
 }
 
 #contact p{
-  text-align: center;
+  /* 
   letter-spacing: 1px;  
-  font-size: 45px;
+  font-size: 45px; */
+  text-align: center;
   margin-bottom: 20px;
-  color: #486255;
+  /* color: var(--contrast); */
+  font-weight: 500;
 }
 
 #contact .input,
