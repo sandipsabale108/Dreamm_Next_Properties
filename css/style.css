@@ -147,10 +147,20 @@ a:hover{
     }
 }
 
-.navbar h2 span{
+h1.logo-text{
+  font-size: 2rem;
+}
+
+
+h1.logo-text span{
     font-size: 22px;
     font-weight: 400;
 }
+/* 
+.navbar h2 span{
+    font-size: 22px;
+    font-weight: 400;
+} */
 
 
 .navbar-brand .logo{
