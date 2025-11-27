@@ -20,6 +20,12 @@
   background-color: #ffffff;
 }
 
+.bg-gray{
+  /* background-color: #dedede; */
+  background-color: #eeeeee;
+}
+
+
 a{
    color: var(--accent);
 }
@@ -81,7 +87,7 @@ a:hover{
 }
 
 .navbar-light .navbar-nav .nav-link {
-    margin:0 30px;
+    margin:0 25px;
     padding: 25px 0;
     color: var(--white);
     font-size: 15px;
@@ -577,6 +583,10 @@ font-weight: 600;
 #call-us h4{
   font-size: 20px;
 }
+
+#call-us .fa-phone-alt, #call-us .fa-envelope{
+    font-size: 24px;
+} 
 /* #call-us a {
     font-family: 'Roboto Slab', serif;
     display: inline-block;
@@ -773,6 +783,11 @@ font-weight: 600;
 .project-heading h2{
 color: var(--accent);
 margin-bottom: 20px;
+}
+
+.project-heading h2 span {
+    /* color: #000; */
+    font-size: 22px;
 }
 .project-heading h3{
  font-size: 1.8rem;
@@ -1170,6 +1185,19 @@ h1 {
     opacity: 1;
 }
 
+/*----------------------- Home Project Portfolio -----------------------*/
+.home-project-gallery .portfolio-container h5{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.home-project-gallery .portfolio-item img {
+    transition: .5s;
+    height: 20vh;
+}
+
+/*----------------------- Home  Project Portfolio -----------------------*/
+
 
 /*----------contact --------------*/
 
@@ -1216,3 +1244,199 @@ form {
 
 /*----------contact --------------*/
 
+
+/*---------- New project start --------------*/
+/* Typorgraphy Styles */
+
+
+.slider-container h2 {
+    font-size: 18px;
+    /* padding-top: 5px; */
+}
+
+.slider-container .slider-details{
+text-align: center;
+padding: 10px;
+}
+
+.slider-container .caption {
+  /* font-family: 'Georgia'; */
+  font-size: 0.9rem;
+  color: rgb(90,90,90);
+  margin-top: 0.5rem;
+  font-style: italic;
+  font-weight: 500;
+  /* text-align: center; */
+  /* text-align: right; */
+}
+
+/* Background Image Styles for Slider */
+
+.bg-image {
+  background-image: url('https://source.unsplash.com/hUHzaiAHuUc');
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+}
+
+.bg-slider-2 {
+  background-image: url('https://source.unsplash.com/phS37wg8cQg');
+}
+
+.bg-slider-3 {
+  background-image: url('https://source.unsplash.com/b57RqS-nQ1c');
+}
+
+.bg-slider-4 {
+  background-image: url('https://source.unsplash.com/iB_h6EFRiKY');
+}
+
+.landscape {
+  padding-bottom: 65%;
+}
+
+/* Slider */
+
+.slider-container {
+  padding: 5%;
+}
+
+.slider-item:first-child {
+  display: block;
+}
+
+.slider-item {
+  padding: 1rem;
+  display: none;
+}
+
+.slick-prev::before {
+  content: '←';
+}
+
+.slick-next::before, .slick-prev::before {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: rgb(90,90,90);
+}
+  
+ .slick-next {
+    right: 10px;
+  }
+  
+.slick-prev {
+  left: 10px;
+}
+/* Without this the padding of the parent affects the centering of the dots. Do not delete! */
+.slick-dots {
+  bottom: 10px;
+  left: 0;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+}
+
+.slick-dots li button::before {
+  font-family: slick;
+  font-size: 9px;
+  color: rgb(30,30,30);
+}
+
+.slick-dots li.slick-active button::before {
+  opacity: .75;
+  color: rgb(90,90,90);
+}
+
+/*----------  ./ New project start --------------*/
+
+/*--------- team ----------*/
+
+.w3-location{
+  /* color: var(--accent); */
+  font-weight: 500;
+}
+
+.team-carousel .owl-nav,
+.related-carousel .owl-nav {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  top: calc(50% - 30px);
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.team-carousel .owl-nav .owl-prev,
+.team-carousel .owl-nav .owl-next,
+.related-carousel .owl-nav .owl-prev,
+.related-carousel .owl-nav .owl-next {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #2878EB;
+  font-size: 22px;
+  transition: .5s;
+}
+
+.team-carousel .owl-nav .owl-prev:hover,
+.team-carousel .owl-nav .owl-next:hover,
+.related-carousel .owl-nav .owl-prev:hover,
+.related-carousel .owl-nav .owl-next:hover {
+  background: #F14D5D;
+}
+
+.testimonial-carousel .owl-item img {
+  width: 80px;
+  height: 80px;
+}
+
+.testimonial-carousel .owl-nav {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  top: 0;
+  right: 0;
+  display: flex;
+  z-index: 1;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #2878EB;
+  font-size: 22px;
+  transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next:hover {
+  background: #F14D5D;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover {
+  background: #2878EB;
+}
+
+.owl-carousel.owl-drag .owl-item{
+  /* width: 335px !important; */
+}
+
+
+/*--------- ./ team ----------*/
